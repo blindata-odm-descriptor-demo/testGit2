@@ -5,15 +5,155 @@
     "domain" : "lorenzobruscoRetail",
     "name" : "testGit2",
     "displayName" : "test-git-2",
-    "description" : null,
+    "description" : "",
     "version" : "1.0.0",
     "owner" : {
       "id" : "l.brusco@crif.com",
       "name" : "Lorenzo Brusco"
-    }
+    },
+    "contactPoints" : [ ]
   },
   "interfaceComponents" : {
     "inputPorts" : [ ],
-    "outputPorts" : [ ]
+    "outputPorts" : [ {
+      "fullyQualifiedName" : "urn:dpds:crifPlayground:dataproducts:testGit2:1:outputports:databricks",
+      "name" : "databricks",
+      "version" : "1.0.0",
+      "displayName" : "Databricks",
+      "description" : "",
+      "promises" : {
+        "platform" : "Databricks:databricksfinancialstatements",
+        "api" : {
+          "fullyQualifiedName" : "",
+          "name" : "testGit2databricksApi",
+          "version" : "1.0.0",
+          "specification" : "datastoreapi",
+          "specificationVersion" : "1.0.0",
+          "definition" : {
+            "schema" : {
+              "databaseSchemaName" : "",
+              "tables" : [ {
+                "version" : "1.0.0",
+                "specification" : "json-schema",
+                "specificationVersion" : "1",
+                "definition" : {
+                  "name" : "financial_statements",
+                  "displayName" : "financial_statements",
+                  "description" : "",
+                  "physicalType" : "VIEW",
+                  "properties" : {
+                    "category_hit" : {
+                      "name" : "category_hit",
+                      "displayName" : "category_hit",
+                      "physicalType" : "boolean",
+                      "description" : "",
+                      "ordinalPosition" : 1
+                    },
+                    "snapshot_document_image" : {
+                      "name" : "snapshot_document_image",
+                      "displayName" : "snapshot_document_image",
+                      "physicalType" : "string",
+                      "description" : "",
+                      "ordinalPosition" : 2
+                    },
+                    "category_type_code" : {
+                      "name" : "category_type_code",
+                      "displayName" : "category_type_code",
+                      "physicalType" : "string",
+                      "description" : "",
+                      "ordinalPosition" : 3
+                    },
+                    "financial_statement_end_date" : {
+                      "name" : "financial_statement_end_date",
+                      "displayName" : "financial_statement_end_date",
+                      "physicalType" : "date",
+                      "description" : "",
+                      "ordinalPosition" : 4
+                    },
+                    "cfiscale" : {
+                      "name" : "cfiscale",
+                      "displayName" : "cfiscale",
+                      "physicalType" : "string",
+                      "description" : "",
+                      "ordinalPosition" : 5
+                    },
+                    "snapshot_document_type_name" : {
+                      "name" : "snapshot_document_type_name",
+                      "displayName" : "snapshot_document_type_name",
+                      "physicalType" : "string",
+                      "description" : "",
+                      "ordinalPosition" : 6
+                    },
+                    "nrea" : {
+                      "name" : "nrea",
+                      "displayName" : "nrea",
+                      "physicalType" : "number",
+                      "description" : "",
+                      "ordinalPosition" : 7
+                    },
+                    "category_type_name" : {
+                      "name" : "category_type_name",
+                      "displayName" : "category_type_name",
+                      "physicalType" : "string",
+                      "description" : "",
+                      "ordinalPosition" : 8
+                    },
+                    "chiave_ottica" : {
+                      "name" : "chiave_ottica",
+                      "displayName" : "chiave_ottica",
+                      "physicalType" : "string",
+                      "description" : "",
+                      "ordinalPosition" : 9
+                    },
+                    "snapshot_document_type" : {
+                      "name" : "snapshot_document_type",
+                      "displayName" : "snapshot_document_type",
+                      "physicalType" : "string",
+                      "description" : "",
+                      "ordinalPosition" : 10
+                    },
+                    "cciaa" : {
+                      "name" : "cciaa",
+                      "displayName" : "cciaa",
+                      "physicalType" : "string",
+                      "description" : "",
+                      "ordinalPosition" : 11
+                    },
+                    "category_document_text" : {
+                      "name" : "category_document_text",
+                      "displayName" : "category_document_text",
+                      "physicalType" : "string",
+                      "description" : "",
+                      "ordinalPosition" : 12
+                    },
+                    "response_date" : {
+                      "name" : "response_date",
+                      "displayName" : "response_date",
+                      "physicalType" : "datetime",
+                      "description" : "",
+                      "ordinalPosition" : 13
+                    },
+                    "snapshot_page" : {
+                      "name" : "snapshot_page",
+                      "displayName" : "snapshot_page",
+                      "physicalType" : "number",
+                      "description" : "",
+                      "ordinalPosition" : 14
+                    },
+                    "snapshot_order" : {
+                      "name" : "snapshot_order",
+                      "displayName" : "snapshot_order",
+                      "physicalType" : "number",
+                      "description" : "",
+                      "ordinalPosition" : 15
+                    }
+                  }
+                }
+              } ]
+            }
+          }
+        }
+      }
+    } ]
   }
 }

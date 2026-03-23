@@ -155,5 +155,26 @@
         }
       }
     } ]
+  },
+  "internalComponents" : {
+    "lifecycleInfo" : {
+      "Deply Data Product" : [ {
+        "name" : "task-1",
+        "order" : 1,
+        "service" : {
+          "$href" : "dummy-executor"
+        },
+        "template" : {
+          "name" : "task-1",
+          "specification" : "",
+          "specificationVersion" : "",
+          "definition" : { },
+          "description" : ""
+        },
+        "configurations" : {
+          "params" : { }
+        }
+      } ]
+    }
   }
 }

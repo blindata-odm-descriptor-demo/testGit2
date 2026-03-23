@@ -6,7 +6,7 @@
     "name" : "testGit2",
     "displayName" : "test-git-2",
     "description" : "",
-    "version" : "1.0.0",
+    "version" : "0.0.2",
     "owner" : {
       "id" : "l.brusco@crif.com",
       "name" : "Lorenzo Brusco"
@@ -33,7 +33,7 @@
             "schema" : {
               "databaseSchemaName" : "",
               "tables" : [ {
-                "version" : "1.0.0",
+                "version" : "0.0.2",
                 "specification" : "json-schema",
                 "specificationVersion" : "1",
                 "definition" : {
